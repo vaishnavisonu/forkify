@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --no-cache" ,
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "vineeth S.S",
@@ -19,3 +19,4 @@
     "regenerator-runtime": "^0.13.7"
   }
 }
+
